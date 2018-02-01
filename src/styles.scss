@@ -1,1 +1,282 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body{
+    font-family: 'Lato', sans-serif !important;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+a:hover {
+    color: #aaaaaa;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    text-decoration: none;
+}
+
+/*============================================
+//  Indents:
+*/
+.pad-top-27 {
+	padding-top: 27px;
+}
+
+.pad-top-38 {
+	padding-top: 38px;
+}
+
+.pad-top-40 {
+	padding-top: 40px;
+}
+
+.pad-top-50 {
+	padding-top: 50px;
+}
+
+.pad-top-57 {
+	padding-top: 57px;
+}
+
+.pad-top-60 {
+	padding-top: 60px;
+}
+
+.pad-top-64 {
+	padding-top: 64px;
+}
+
+.pad-top-70 {
+	padding-top: 70px;
+}
+
+.pad-top-72 {
+	padding-top: 72px;
+}
+
+.pad-top-75 {
+	padding-top: 75px;
+}
+
+.pad-top-78 {
+	padding-top: 78px;
+}
+
+.pad-top-80 {
+	padding-top: 80px;
+}
+
+.pad-top-81 {
+	padding-top: 81px;
+}
+
+.pad-top-85 {
+	padding-top: 85px;
+}
+
+.pad-top-87 {
+	padding-top: 87px;
+}
+
+.pad-top-90 {
+	padding-top: 90px;
+}
+
+.pad-top-95 {
+	padding-top: 95px;
+}
+
+.pad-top-100 {
+	padding-top: 100px;
+}
+
+.pad-bt-0 {
+	padding-bottom: 0;
+}
+
+.pad-bt-20 {
+	padding-bottom: 20px;
+}
+
+.pad-bt-23 {
+	padding-bottom: 23px;
+}
+
+.pad-bt-26 {
+	padding-bottom: 26px;
+}
+
+.pad-bt-35 {
+	padding-bottom: 35px;
+}
+
+.pad-bt-40 {
+	padding-bottom: 40px;
+}
+
+.pad-bt-50 {
+	padding-bottom: 50px;
+}
+
+.pad-bt-57 {
+	padding-bottom: 57px;
+}
+
+.pad-bt-60 {
+	padding-bottom: 60px;
+}
+
+.pad-bt-70 {
+	padding-bottom: 70px;
+}
+
+.pad-bt-75 {
+	padding-bottom: 75px;
+}
+
+.pad-bt-78 {
+	padding-bottom: 78px;
+}
+
+.pad-bt-80 {
+	padding-bottom: 80px;
+}
+
+.pad-bt-85 {
+	padding-bottom: 85px;
+}
+
+.pad-bt-90 {
+	padding-bottom: 90px;
+}
+
+.pad-bt-95 {
+	padding-bottom: 95px;
+}
+
+.pad-bt-100 {
+	padding-bottom: 100px;
+}
+
+.pad-bt-110 {
+	padding-bottom: 110px;
+}
+
+.pad-bt-113 {
+	padding-bottom: 113px;
+}
+
+.pad-bt-147 {
+	padding-bottom: 147px;
+}
+
+.mar-top-10 {
+	margin-top: 10px;
+}
+
+.mar-top-20 {
+	margin-top: 20px;
+}
+
+.mar-top-26 {
+	margin-top: 26px;
+}
+
+.mar-top-28 {
+	margin-top: 28px;
+}
+
+.mar-top-30 {
+	margin-top: 30px;
+}
+
+.mar-top-38 {
+	margin-top: 38px;
+}
+
+.mar-top-42 {
+	margin-top: 42px;
+}
+
+.mar-top-83 {
+	margin-top: 83px;
+}
+
+.mar-top-93 {
+	margin-top: 93px;
+}
+
+.mar-bt-15 {
+	margin-bottom: 15px;
+}
+
+.mar-bt-18 {
+	margin-bottom: 18px;
+}
+
+.mar-bt-21 {
+	margin-bottom: 21px;
+}
+
+.mar-bt-27 {
+	margin-bottom: 27px;
+}
+
+.mar-bt-32 {
+	margin-bottom: 32px;
+}
+
+.mar-bt-35 {
+	margin-bottom: 35px;
+}
+
+.mar-bt-50 {
+	margin-bottom: 50px;
+}
+
+.overflow-01 {
+	overflow-x: hidden;
+}
+
+.content-box-02 {
+    padding: 20px 0 57px;
+    background-color: #f6f8f9;
+}
+.subtitle-01 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #5c656d;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.title-03 {
+    font-size: 36px;
+    line-height: 38px;
+    color: #42474c;
+    position: relative;
+    padding-bottom: 26px;
+    margin-bottom: 31px;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 70px;
+        height: 1px;
+        background-color: #d9e0e4;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -35px;
+    }
+
+    span {
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,64 @@
+agm-map {
+    height: 100%;
+  }
+
+.contact{
+    background-color: #4eaac8;
+}
+
+.inner{
+    max-width: 585px;
+    float: right;
+    text-align: left;
+    width: 100%;
+    padding: 126px 15px 30px 15px;
+
+    color: white;
+}
+
+h3{
+    font-size: 36px;
+    line-height: 38px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 26px;
+    margin-bottom: 20px;
+
+    &::before{
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 70px;
+        height: 1px;
+        background-color: #d9e0e4;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.contacto{
+    list-style: none;
+    padding-left: 0;
+    font-size: 22px;
+
+    li{
+        margin-bottom: 20px;
+
+        span{
+            display: block;
+            font-size: 14px;
+        }
+    }
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }

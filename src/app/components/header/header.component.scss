@@ -1,0 +1,54 @@
+:host{
+
+    header{
+        font-family: 'Lato', sans-serif;
+
+        .phone-info{
+            font-size: 30px;
+            line-height: 32px;
+            color: #4eaac8;
+            font-weight: 600;
+            display: inline-block;
+            vertical-align: middle;
+            opacity: 0.7;
+            margin: 10px;
+            
+            span{
+                font-weight: 300;
+            }
+        }
+
+        .btn-app{
+            font-size: 12px;
+            line-height: 14px;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            background-color: #3d3272;
+            border: none;
+            display: inline-block;
+            vertical-align: middle;
+            padding: 20px 10px;
+            border-radius: 5px;
+            margin-top: 4px;
+            width: 100%;
+            max-width: 220px;
+            letter-spacing: 0.7px;
+            margin-left: 10px;
+            transition: 0.5s all;
+            text-align: center;
+            text-decoration: none;
+            
+            &:hover{
+                color: #fff;
+                background-color: #4eaac8;
+                -webkit-transition: 0.5s all;
+                transition: 0.5s all;
+            }
+        }
+
+        
+
+    }
+
+}

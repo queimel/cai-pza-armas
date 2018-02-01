@@ -1,0 +1,34 @@
+<div class="row contact no-gutters">
+  <div class="col-6 ">
+    <div class="inner">
+      <h3>Ubicanos</h3>
+      <ul class="contacto">
+        <li>
+          <fa name="map-marker"></fa>
+          Calle San Antonio #486, OF 151.
+          <span>Esq. calle Monjitas, edificio y galería Bahía.</span>
+        </li>
+        <li>
+          <fa name="envelope"></fa>
+          info@centrointegralplazadearmas.cl
+        </li>
+        <li>
+          <span>Llámanos</span>
+          <fa name="phone"></fa>
+          22 32247948
+        </li>
+        <li>
+          <span>Whatsapp</span>
+          <fa name="whatsapp"></fa>
+          +569 41889649
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="col-6">
+    <agm-map [latitude]="lat" [longitude]="lng" [zoom]=15 [styles]="styleArray">
+      <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="owl-treatments">
+  <figure class="owl-treatments__img">
+    <a href="">
+      <img src="{{ imagen }}" alt="">
+    </a>
+  </figure>
+  <h4 class="owl-treatments__title">
+    <a href="">{{ titulo }}</a>
+  </h4>
+  <div class="owl-treatments__text" [innerHtml]="texto | truncate : 150">
+  </div>
+  <a href="" class="owl-treatments__btn">Ver más</a>
+</div>
