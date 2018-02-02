@@ -4,9 +4,27 @@
         <div class="col-lg-12">
           <div class="main-nav">
             <ul class="main-nav__list">
-              <li *ngFor="let menuItem of menu">
+              <!--<li *ngFor="let menuItem of menu">
                 <a href="#" class="sf-with-ul">{{menuItem['title']}}</a>
+              </li>-->
+
+              <li>
+                <a  class="sf-with-ul" [routerLink]="['home']">Inicio</a>
               </li>
+              <!--<li >
+                <a  class="sf-with-ul" href="#">Contacto</a>
+              </li>-->
+              <li >
+                <a  class="sf-with-ul" href="#quienes">Quienes somos</a>
+              </li>
+              <li >
+                <a  class="sf-with-ul" href="#">Información general</a>
+              </li>
+              <li >
+                <a  class="sf-with-ul" [routerLink]="['terapias']">Terapias y tratamientos</a>
+              </li><li >
+                <a  class="sf-with-ul" href="#ubicacion">Ubicación</a>
+              </li>              
             </ul>
           </div>
         </div>

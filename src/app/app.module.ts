@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { routing, appRoutingProviders } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
 import { PreHeaderComponent } from './components/pre-header/pre-header.component';
@@ -18,6 +20,9 @@ import { AgmCoreModule } from '@agm/core';
 import { BasicInfoComponent } from './components/basic-info/basic-info.component';
 import { TruncatePipe } from './pipes/truncate.pipe';
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
+import { IndexComponent } from './components/index/index.component';
+import { TerapiasPageComponent } from './components/terapias-page/terapias-page.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +36,9 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     UbicacionComponent,
     BasicInfoComponent,
     TruncatePipe,
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    IndexComponent,
+    TerapiasPageComponent
   ],
   imports: [
     BrowserModule,
@@ -41,9 +48,10 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     OwlModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBC_FEea99_jCDDk6CL0uU1Rpm8z4UKA2A'
-    })
+    }),
+    routing
   ],
-  providers: [],
+  providers: [appRoutingProviders],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

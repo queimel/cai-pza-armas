@@ -280,3 +280,50 @@ a:hover {
         font-weight: 700;
     }
 }
+
+.owl-theme .owl-nav [class*='owl-'] {
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: -100px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.5s all;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.09);
+    text-align: center;
+}
+
+
+.owl-theme .owl-nav .owl-prev {
+    left: -21px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:before {
+    font-family: 'FontAwesome';
+    color: #42474c;
+    font-size: 24px;
+    line-height: 45px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 300;
+    transition: 0.5s all;
+}
+
+.owl-theme .owl-nav .owl-prev:before {
+    content: '\F104';
+}
+
+.owl-theme .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.owl-theme .owl-nav .owl-next:before {
+    content: '\F105';
+}
+
+
+
