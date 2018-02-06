@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/Observable';
   selector: 'app-terapias',
   templateUrl: './terapias.component.html',
   styleUrls: ['./terapias.component.scss'],
-  providers: [TerapiaService]
+  // providers: [TerapiaService]
 })
 export class TerapiasComponent implements OnInit {
 

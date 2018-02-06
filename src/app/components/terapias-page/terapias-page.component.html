@@ -1,3 +1,23 @@
-<p>
-  terapias-page works!
-</p>
+<app-loader [hidden]="!isLoading"></app-loader>
+<div class="container" [hidden]="isLoading">
+  <div class="col-lg-12">
+    <div class="page-title-wrapp">
+      <h2 class="page-title-01">Terapias y tratamientos</h2>
+    </div>
+
+  </div>
+  <section id="terapias">
+    <tabs class="row">
+      <tab *ngFor="let terapia of terapias;let i = index" tabTitle="{{terapia.titulo}}">
+        <article class="item" id=item-{{i}}>
+          <figure class="single-service__img">
+            <img src="{{terapia.imagen}}" alt="">
+          </figure>
+          <h3>{{terapia.titulo}}</h3>
+          <div class="txt" [innerHTML]="terapia.texto"></div>
+        </article>
+      </tab>
+    </tabs>
+  </section>
+
+</div>
