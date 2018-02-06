@@ -1,5 +1,9 @@
 :host{
 
+    .container{
+        min-height: 500px;
+        padding-bottom: 50px;
+    }
 
     .single-service__img {
         -webkit-border-radius: 5px;

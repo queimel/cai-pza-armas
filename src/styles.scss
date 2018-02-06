@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 body{
     font-family: 'Lato', sans-serif !important;
@@ -283,12 +284,12 @@ a:hover {
 
 .owl-theme .owl-nav [class*='owl-'] {
     position: absolute;
-    top: 50%;
-    font-size: 0;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    margin-top: -100px;
+    top: 50% !important;
+    font-size: 0 !important;
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50% !important;
+    margin-top: -100px !important;
     background-color: #fff;
     cursor: pointer;
     transition: 0.5s all;
@@ -299,6 +300,10 @@ a:hover {
 
 .owl-theme .owl-nav .owl-prev {
     left: -21px;
+}
+
+.owl-theme .owl-nav .owl-next {
+    right: -21px;
 }
 
 .owl-theme .owl-nav [class*='owl-']:before {

@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { routing, appRoutingProviders } from './app-routing.module';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
@@ -12,6 +13,8 @@ import { PreHeaderComponent } from './components/pre-header/pre-header.component
 import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import {ScrollToModule} from 'ng2-scroll-to';
 
 
 import { OwlModule } from 'ngx-owl-carousel';
@@ -57,7 +60,9 @@ import { LoaderComponent } from './components/loader/loader.component';
       apiKey: 'AIzaSyBC_FEea99_jCDDk6CL0uU1Rpm8z4UKA2A'
     }),
     routing,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    AngularFontAwesomeModule,
+    ScrollToModule.forRoot()
   ],
   providers: [appRoutingProviders, TerapiaService],
   bootstrap: [AppComponent]

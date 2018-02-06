@@ -19,7 +19,7 @@ export class TerapiasPageComponent implements OnInit {
   ngOnInit() {
     this.isLoading = true;
     this.terapiaService.getTerapiaItem().subscribe(
-      result =>{
+      result => {
         this.terapias = result['acf'].terapia_o_tratamiento;
         this.isLoading = false;
       });
