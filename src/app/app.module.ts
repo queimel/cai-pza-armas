@@ -7,6 +7,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { routing, appRoutingProviders } from './app-routing.module';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 import { AppComponent } from './app.component';
 import { PreHeaderComponent } from './components/pre-header/pre-header.component';
@@ -30,6 +31,7 @@ import { TerapiasPageComponent } from './components/terapias-page/terapias-page.
 import { TabsComponent } from './components/tabs/tabs.component';
 import { TabComponent } from './components/tab/tab.component';
 import { LoaderComponent } from './components/loader/loader.component';
+import { FaqComponent } from './components/faq/faq.component';
 
 
 @NgModule({
@@ -49,7 +51,8 @@ import { LoaderComponent } from './components/loader/loader.component';
     TerapiasPageComponent,
     TabsComponent,
     TabComponent,
-    LoaderComponent
+    LoaderComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
@@ -60,7 +63,9 @@ import { LoaderComponent } from './components/loader/loader.component';
       apiKey: 'AIzaSyBC_FEea99_jCDDk6CL0uU1Rpm8z4UKA2A'
     }),
     routing,
+    BrowserAnimationsModule,
     MatProgressSpinnerModule,
+    MatExpansionModule,
     AngularFontAwesomeModule,
     ScrollToModule.forRoot()
   ],
