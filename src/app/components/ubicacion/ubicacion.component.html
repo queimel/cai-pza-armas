@@ -1,5 +1,5 @@
 <div class="row contact no-gutters" id="ubicacion">
-  <div class="col-6 ">
+  <div class="col-sm-6 col-xs-12">
     <div class="inner">
       <h3>Ubicanos</h3>
       <ul class="contacto">
@@ -26,7 +26,7 @@
     </div>
 
   </div>
-  <div class="col-6">
+  <div class="col-sm-6 col-xs-12 gmap">
     <agm-map [latitude]="lat" [longitude]="lng" [zoom]=15 [styles]="styleArray">
       <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
     </agm-map>

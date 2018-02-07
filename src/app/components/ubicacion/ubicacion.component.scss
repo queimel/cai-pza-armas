@@ -62,3 +62,10 @@ h3{
       padding-left: 0;
     }
   }
+
+
+  .gmap{
+    @media (max-width: 767.98px) {
+        height: 300px;
+    }
+  }

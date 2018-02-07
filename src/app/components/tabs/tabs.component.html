@@ -1,8 +1,8 @@
-<div class="col-9">
+<div class="col-sm-9">
   <ng-content></ng-content>
 </div>
 
-<div class="col-3">
+<div class="col-sm-3">
   <div class="widget widget-categories">
     <ul class="widget-categories__list">
       <li *ngFor="let tab of tabs ;let i = index" (click)="selectTab(tab)" [ngClass]="tab.active ? 'active' : ''">

@@ -45,9 +45,12 @@
         }
 
         & > li {
-            display: inline-block;
-            vertical-align: middle;
-            margin: 0 42px 0 0;
+            @media (min-width: 768px) { 
+                display: inline-block;
+                vertical-align: middle;
+                margin: 0 42px 0 0;
+            }
+
         }
 
 

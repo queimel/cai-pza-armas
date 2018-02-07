@@ -15,7 +15,10 @@
             
             span{
                 font-weight: 300;
+
+   
             }
+
         }
 
         .btn-app{
@@ -47,7 +50,17 @@
             }
         }
 
-        
+        .logo{
+            @media (max-width: 767.98px) {
+                padding: 20px 0;
+             } 
+             
+             img{
+                @media (max-width: 767.98px) {
+                   max-width: 60%;
+                 }                  
+             }
+        }
 
     }
 
